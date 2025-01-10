@@ -16,6 +16,13 @@
 .dark-2{
     color: rgba(14, 14, 14, 0.7);
 }
+.dark-3{
+    color: rgba(14, 14, 14, 0.8);
+}
+.dark-4{
+    color: rgba(14, 14, 14, 0.6);
+}
+
 
 .main-bg{
     background-color: #F1F1F3;
@@ -164,4 +171,27 @@ main{
 .sec-2-card-btn-3{
     background-color: #FFC239;
     padding: 11px 20px;
+}
+
+
+/* section 3 styles */
+.sec-3{
+    max-width: 1232px;
+    margin: 0 auto;
+    padding: 48px 24px;
+    background-color: white;
+    border-radius: 16px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 24px 24px;
+}
+.quote, .designation{
+    font-weight: normal;
+    font-size: 16px;
+}
+.author{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 12px;
+    margin-bottom: 4px;
 }
