@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 
 /* shared styles */
 .fira-sans-regular {
@@ -13,6 +16,19 @@
 .dark-2{
     color: rgba(14, 14, 14, 0.5);
 }
+.secondery-bg{
+    background-color: #C6E4D6;
+}
+
+.btn-primary{
+    background-color: #006A50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 13px 26px;
+}
 
 
 
@@ -22,11 +38,11 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 24px 180px;
+    padding: 24px 180px;
 }
 .nav-title{
     font-weight: bold;
-    font-size: 32px; 
+    font-size: 32px;
 }
 .nav-btn{
     font-weight: 600;
@@ -36,4 +52,38 @@ nav{
     background-color: white;
     border: 2px solid #006A50;
     border-radius: 8px;
+}
+
+
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 80px 60px;
+    border-radius: 24px;
+}
+.banner-content{
+    /* width: 620px; */
+    /* margin-left: 60px; */
+}
+.banner-title{
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.banner-description{
+    font-weight: bold;
+    font-size: 56px;
+    margin-bottom: 24px;
+}
+.banner-btn{
+    
+    padding: 17px 34px;
+}
+.banner-img{
+    width: 475px;
 }
