@@ -265,3 +265,50 @@ main{
 .sec-5 button {
     font-size: 18px;
 }
+
+
+
+
+
+
+
+
+/* hover effects */
+.nav-btn:hover{
+    background-color: #006A50;
+    color: white;
+    border: 2px solid #006A50;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 15px 30px;
+}
+
+.btn-primary:hover{
+    font-weight: 600;
+    font-size: 18px;
+    color: #006A50;
+    padding: 15px 30px;
+    background-color: white;
+    border: 2px solid #006A50;
+    border-radius: 8px;
+}
+
+.sec-2 button:hover{
+    padding: 11px 20px;
+    font-size: 16px;
+}
+
+.sec-2-card-btn-1:hover{
+    background-color: white;
+    color: #5490F5;
+    border: 2px solid #5490F5;
+}
+.sec-2-card-btn-3:hover{
+    background-color: white;
+    color: #FFC239;
+    border: 2px solid #FFC239;
+}
+.sec-5 button:hover{
+    padding: 13px 26px;
+}
