@@ -182,6 +182,7 @@ main{
     margin: 0 auto;
     padding: 48px 24px;
     background-color: white;
+    border: 2px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background-image: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
