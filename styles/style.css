@@ -123,7 +123,7 @@ main{
 .sec-1, .sec-2{
     margin-top: 80px;
 }
-.sec-1-title, .sec-2-title, .sec-5-title, .sec-6-title{
+.sec-1-title, .sec-2-title, .sec-5-title, .sec-6-title, .sec-7-title{
     font-weight: bold;
     font-size: 40px;
 }
@@ -319,10 +319,72 @@ main{
     color: rgba(14, 14, 14, 0.3);
     padding-top: 10px;
 }
+.sec-6-btn{
+    /* display: inline-block; */
+    /* position: absolute; */
+}
 .sec-6 button{
     padding: 17px 34px;
     font-weight: 600;
     font-size: 18px;
+}
+
+/* section 7 styles */
+.sec-7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    max-width: 1080px;
+    margin: 80px auto;
+    padding: 80px 100px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+}
+.sec-7-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+}
+.sec-7-description{
+    width: 75%;
+    font-weight: normal;
+    font-size: 16px;
+}
+.sec-7-form{
+    display: flex;
+    gap: 0;
+    width: 75%;
+}
+.sec-7 button{
+    background-color: #006A50;
+    color: white;
+    border: none;
+    border-radius: 0px 8px 8px  0px;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 17px 34px;
+    transform: none;
+}
+
+.sec-7-form input{
+    width: 80%;
+    outline: none;
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    padding-left: 40px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.sec-7-form::placeholder{
+    color: rgba(14, 14, 14, 0.3);
+    font-weight: normal;
+    font-size: 16px;
+}
+.spam{
+    font-weight: normal;
+    font-size: 16px;
 }
 
 /* hover effects */
@@ -380,8 +442,20 @@ main{
     padding: 16px 30px;
     font-weight: 600;
     font-size: 16px;
+    margin-bottom: 1px;
 }
 textarea:focus{
     /* border: 2px solid #006A50; */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+.sec-7 button:hover{
+    background-color: white;
+    color: #006A50;
+    border: 2px solid #006A50;
+    border-radius: 0px 8px 8px  0px;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 15px 32px;
+    transform: none;
+    margin-top: 1px;
 }
