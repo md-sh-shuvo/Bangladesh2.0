@@ -450,13 +450,15 @@ textarea:focus{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 .sec-7 button:hover{
-    background-color: white;
-    color: #006A50;
-    border: 2px solid #006A50;
+    background-color: #ff0909;
+    color: white;
+    border: none;
     border-radius: 0px 8px 8px  0px;
     font-weight: 600;
     font-size: 18px;
-    padding: 15px 32px;
+    padding: 17px 34px;
     transform: none;
-    margin-top: 1px;
+}
+.sec-7 input:focus{
+    border: 2px solid #006A50;
 }
